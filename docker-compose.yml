@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  api:
+    build: .
+    image: api
+    container_name: api_container
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_ENV=development
+      - DATABASE_URL=postgresql://pessoal:pessoal!trern@dl3.tre-rn.jus.br/pessoal
