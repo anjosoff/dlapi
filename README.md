@@ -1,5 +1,7 @@
 
-### O json que a api retorna:
+### Um exemplo de como será o retorno da API:
+URL: <code>127.0.0.1:5000/pessoal/estagiario-ativo</code>
+
 ```json
 {
 	"columns": [
